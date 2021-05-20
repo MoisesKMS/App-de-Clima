@@ -12,7 +12,7 @@ Crear una cuenta y una llave en https://openweathermap.org/
 ## Configuracion ⚙️
 Para usar tu llave asignala al [appId] 
 ```
-Asigna tu llave de la API de Open Weather [appId]
+Asigna tu llave de la API de Open Weather "appId"
 ```
 
 ## Uso de la API 📜
