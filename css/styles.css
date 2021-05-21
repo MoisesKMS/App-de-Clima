@@ -1,9 +1,9 @@
 html {
-    background: #43cea2;
+    background: #6146c0;
     /* fallback for old browsers */
-    background: -webkit-linear-gradient(to right, #185a9d, #43cea2);
+    background: -webkit-linear-gradient(to right, #64003a, #aa0866);
     /* Chrome 10-25, Safari 5.1-6 */
-    background: linear-gradient(to right, #185a9d, #43cea2);
+    background: linear-gradient(to right, #64003a, #aa0866);
     /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
 
