@@ -1,3 +1,9 @@
+/**
+ * APP para mostrar el clima con Fetch API y Open Weather API
+ * Autor: Moisés Jiménez Macías
+ *  url: https://github.com/ScarKMS/App-de-Clima
+ */
+
 const container = document.querySelector('.container');
 const resultado = document.querySelector('#resultado');
 const formulario = document.querySelector('#formulario');
@@ -30,9 +36,9 @@ function mostrarError(mensaje) {
         const alerta = document.createElement('div');
         alerta.classList.add('bg-red-100', 'border-red-400', 'text-red-700', 'px-4', 'py-3', 'rounded', 'max-w-md', 'mx-auto', 'mt-6', 'text-center');
         alerta.innerHTML = `
-            <strong class="font-bold">Error!</strong>
-            <span class="block">${mensaje}</span>
-        `;
+             <strong class="font-bold">Error!</strong>
+             <span class="block">${mensaje}</span>
+         `;
 
         container.appendChild(alerta);
 
@@ -120,11 +126,11 @@ function Spinner() {
     const divSpinner = document.createElement('div');
     divSpinner.classList.add('spinner');
     divSpinner.innerHTML = `
-        <div class="rect1"></div>
-        <div class="rect2"></div>
-        <div class="rect3"></div>
-        <div class="rect4"></div>
-        <div class="rect5"></div>
-    `;
+         <div class="rect1"></div>
+         <div class="rect2"></div>
+         <div class="rect3"></div>
+         <div class="rect4"></div>
+         <div class="rect5"></div>
+     `;
     resultado.appendChild(divSpinner);
 }
